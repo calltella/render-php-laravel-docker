@@ -11,10 +11,5 @@ php artisan config:cache
 echo "Caching routes..."
 php artisan route:cache
 
-# キャッシュクリア
-php artisan config:clear
-php artisan route:clear
-php artisan cache:clear
-
 echo "Running migrations..."
 php artisan migrate --force
